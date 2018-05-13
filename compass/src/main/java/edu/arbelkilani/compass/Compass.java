@@ -76,6 +76,15 @@ public class Compass extends RelativeLayout implements SensorEventListener {
         init(context, attrs);
     }
 
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        if (widthMeasureSpec < heightMeasureSpec) {
+            super.onMeasure(widthMeasureSpec, widthMeasureSpec);
+        } else {
+            super.onMeasure(heightMeasureSpec, heightMeasureSpec);
+        }
+    }
+
     private void init(Context context, AttributeSet attrs) {
         LayoutInflater.from(context).inflate(R.layout.compass_layout, this, true);
 

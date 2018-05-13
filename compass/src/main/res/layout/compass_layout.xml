@@ -5,9 +5,9 @@
     android:id="@+id/compass_skeleton"
     android:background="@android:color/transparent">
 
-
     <ImageView
         android:id="@+id/iv_needle"
+        android:src="@drawable/ic_needle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"/>
