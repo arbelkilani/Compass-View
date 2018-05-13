@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Compass">
+
+        <attr name="degree_color" format="color" />
+        <attr name="show_orientation_labels" format="boolean"/>
+        <attr name="orientation_labels_color" format="color"/>
+        <attr name="show_degree_value" format="boolean" />
+        <attr name="degree_value_color" format="color" />
+        <attr name="needle" format="integer"/>
+        <attr name="degrees_step" format="integer"/>
+        <attr name="show_border" format="boolean"/>
+        <attr name="border_color" format="color"/>
+
+    </declare-styleable>
+
+</resources>

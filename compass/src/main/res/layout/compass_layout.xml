@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edu.arbelkilani.compass.CompassSkeleton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/compass_skeleton"
+    android:background="@android:color/transparent">
+
+
+    <ImageView
+        android:id="@+id/iv_needle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/data_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+</edu.arbelkilani.compass.CompassSkeleton>
