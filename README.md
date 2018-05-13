@@ -23,7 +23,7 @@ and to your app build.gradle:
 
 ```xml
 dependencies {
-  implementation 'com.github.arbelkilani:Compass-View:v1.1'
+  implementation 'com.github.arbelkilani:Compass-View:v1.1.1'
 }
 ```
 
